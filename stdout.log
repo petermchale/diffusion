@@ -1,0 +1,18 @@
+Files already downloaded and verified
+Files already downloaded and verified
+---
+Epoch: 0 | Train Loss 0.18494381671532606 | Val Loss 0.0876009708795792
+---
+Epoch: 20 | Train Loss 0.06591031793982555 | Val Loss 0.06618078702535385
+---
+Epoch: 40 | Train Loss 0.062462844661413094 | Val Loss 0.0637474846190367
+---
+Epoch: 60 | Train Loss 0.060408989129922326 | Val Loss 0.05923406502757317
+---
+Epoch: 80 | Train Loss 0.05984845824348621 | Val Loss 0.06021349074748846
+---
+Epoch: 100 | Train Loss 0.05976265013600007 | Val Loss 0.059777839157061696
+---
+Epoch: 120 | Train Loss 0.05868183676248942 | Val Loss 0.058682904698145695
+---
+Epoch: 140 | Train Loss 0.058589975726910125 | Val Loss 0.059868800143400826
