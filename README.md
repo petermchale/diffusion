@@ -14,7 +14,7 @@ A UNet is used to model the mapping from noisy image to denoised image (see `mod
 I overfitted the diffusion model to a single training image (`racoon.jpg`), and checked that the model generates exactly this image, 
 when presented with random noise (`racoon.ipynb`).
 
-## CIFAR10 
+## Generating CIFAR10-like images
 
 I then trained the model on CIFAR10 using a single-GPU `g4dn.xlarge` EC2 instance for 160 epochs over a period of about 6 hours. 
 Some statistics from the training run can be seen at: https://api.wandb.ai/links/peter-thomas-mchale/76bqm8a8
