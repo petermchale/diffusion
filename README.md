@@ -30,7 +30,7 @@ some of which look realistic (`generate-from-cifar10.ipynb`).
 
 Most of the images generated from the CIFAR10 model are not realistic. There are two opposite explanations: 
 
-1. The labels were not one-hot encoded (and masked out), as they were in the conditional diffusion model described [here](https://learn.deeplearning.ai/diffusion-models/lesson/6/controlling) It's 
+1. The labels were not one-hot encoded (and masked out), as they were in the conditional diffusion model described [here](https://learn.deeplearning.ai/diffusion-models/lesson/6/controlling). It's 
 possible that, without masking the label, the model can over-rely upon the labels and not learn how to generate images at all. 
 2. The conditional diffusion model we trained above is actually ignoring the labels, 
 which could be corrected using classifier or classifier-free guidance, as described in [Luo 2022](https://arxiv.org/abs/2208.11970). 
